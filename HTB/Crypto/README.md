@@ -8,16 +8,16 @@
 
 |	Name                                            | Skills       | Completion |
 | ------------------------------------------------- | ------------ | ---------- |
-| [Keys][2]                                         | Web          | 0 / 1      |
-| [Mission Impossible][3]                           | Web          | 0 / 1      |
-| [Bank Heist]                                      | Web          | 1 / 1      |
-| [Call][4]                                         | Web          | 0 / 1      |
-| [Decode Me!!][5]                                  | Web          | 1 / 1      |
-| [August][6]                                       | Web          | 0 / 1      |
-| [Optimus Prime][7]                                | Web          | 0 / 1      |
-| [Walzer][8]                                       | Web          | 0 / 1      |
-| [Templed]                                         | Web          | 1 / 1      |
-| [RsaCtfTool][9]                                   | Web          | 0 / 1      |
+| [Keys][2]                                         | Crypto       | 0 / 1      |
+| [Mission Impossible][3]                           | Crypto       | 0 / 1      |
+| [Bank Heist]                                      | Crypto       | 1 / 1      |
+| [Call][4]                                         | Crypto       | 0 / 1      |
+| [Decode Me!!][5]                                  | Crypto       | 1 / 1      |
+| [August][6]                                       | Crypto       | 0 / 1      |
+| [Optimus Prime][7]                                | Crypto       | 0 / 1      |
+| [Walzer][8]                                       | Crypto       | 0 / 1      |
+| [Templed]                                         | Crypto       | 1 / 1      |
+| [RsaCtfTool][9]                                   | Crypto       | 0 / 1      |
 
 
 [1]: https://www.hackthebox.eu/

@@ -1,10 +1,8 @@
 # Hack The Box CTF
 
-## 0x00 Overview
 
-[Hakc The Box][1] is a testing/training ground for penetration testers and security enthusiasts alike.
 
-## 0x01 Challenges: Web 
+## Challenges: Web 
 
 |	Name                                            | Skills       | Completion |
 | ------------------------------------------------- | ------------ | ---------- |
