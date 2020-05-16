@@ -10,9 +10,6 @@ Note::: NO, I won't be posting my found FLAGS, but I will be posting the methods
 
 <hr>
 
-
-
-
 ### Flag1
 - Hint: <!-- Hint : base64_encode($data)-->
 - Acquired By: 
@@ -33,14 +30,6 @@ The trick with this is that the error message is saying that it is expecting, at
  - Now I want to try my payload again but I want to look at this table now. For this I will use `' UNION SELECT * from (SELECT 1)a JOIN (SELECT table_name from ezpz.FlagTableUnguessableEzPZ)b#` but this isn't quite right. I am getting the same error as before.
  - Second do I changed the "table_name" to "*" as I want to see everything and not just the table name. `' UNION SELECT * from (SELECT 1)a JOIN (SELECT * from ezpz.FlagTableUnguessableEzPZ)b#` and the flag populates right on the screen. 
 ![Alt Text](https://dev-to-uploads.s3.amazonaws.com/i/g97r1reyiksrwt1q226y.png)
-
-
-
-
-
-
-
-
 
 
 ### Learned
