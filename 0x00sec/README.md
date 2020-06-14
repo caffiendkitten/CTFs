@@ -9,21 +9,21 @@
 ### Challenges
 
 [Crypto][2]<br />
-|	Name                                            | Skills       | Completion |
-| ------------------------------------------------- | ------------ | ---------- |
-| [Exercise #7][4]                                  | Crypto       | 1 / 1      |
+|	Name                                            | Skills       | Points |
+| ------------------------------------------------- | ------------ | ------ |
+| [Exercise #7][4]                                  | Crypto       | 30     |
 
 
 
 [Web][3]<br />
-| Name                                              | Skills       | Completion |
-| ------------------------------------------------- | ------------ | ---------- |
-| [Exercise #6][5]                                  | Web          | 1 / 1      |
-| [Exercise #5][6]                                  | Web          | 1 / 1      |
-| [Exercise #4][7]                                  | Web          | 1 / 1      |
-| [Exercise #3][8]                                  | Web          | 1 / 1      |
-| [Exercise #2][9]                                  | Web          | 1 / 1      |
-| [Exercise #1][10]                                 | Web          | 1 / 1      |
+| Name                                              | Skills       | Points |
+| ------------------------------------------------- | ------------ | ------ |
+| [Exercise #6][5]                                  | Web          | 30     |
+| [Exercise #5][6]                                  | Web          | 30     |
+| [Exercise #4][7]                                  | Web          | 15     |
+| [Exercise #3][8]                                  | Web          | 15     |
+| [Exercise #2][9]                                  | Web          | 15     |
+| [Exercise #1][10]                                 | Web          | 15     |
 
 
 
