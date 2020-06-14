@@ -1,6 +1,6 @@
 # [0x00Sec CTF][1]
 
-## 0x00 Overview
+### Overview
 
 [0x00Sec CTF][1] is an ongoing biweekly CTF to test your skills.
 

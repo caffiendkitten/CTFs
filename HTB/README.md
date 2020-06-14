@@ -1,6 +1,6 @@
 # [Hack The Box][1]
 
-## 0x00 Overview
+### Overview
 
 [Hack The Box][1] is a testing/training ground for penetration testers and security enthusiasts alike.
 

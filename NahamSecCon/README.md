@@ -2,7 +2,7 @@
 
 ## 0x00 Overview
 
-[Hack The Box][1] is a testing/training ground for penetration testers and security enthusiasts alike.
+[NahamSec Con][1] was a weekend CTF on June 13,14th 2020.
 
 
 <hr>
