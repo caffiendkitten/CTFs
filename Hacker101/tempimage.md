@@ -10,13 +10,6 @@ Note::: NO, I won't be posting my found FLAGS, but I will be posting the methods
 
 
 ### Flag0
-__Hint__ 
- 1. File uploads can be hard to pin down
- 2. What happens to your filename when you see an uploaded file?
- 3. What if you make a small change to the path?
-
-
-
 __Acquired By:__
  1. Like other flags the first thing I want to do is look at the code. There doesn't first seem much. It seems to be a php page as there is a link to a php page. ![Alt Text](https://dev-to-uploads.s3.amazonaws.com/i/cuytl1qndf238zxenqrg.png) 
     The network response shows that there is a a nginx1.14.0 (Ubuntu) server running and php/5.5.9-1ubuntu4.24 but that is about it. ![Alt Text](https://dev-to-uploads.s3.amazonaws.com/i/a03b5vwuu1cb81f1g2a4.png)
