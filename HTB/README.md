@@ -23,10 +23,12 @@
 | ------------------------------------------------- | ------------ | ------ |
 | [I know Mag1k][5]                                 | Web          | 50     |
 |  Emdee five for life                              | Web          | 20     |
-|  Fuzzy                                            | Web          | 20      |
-| [FreeLancer][6]                                   | Web          | 30      |
-| [ezpz][7]                                         | Web          | 20      |
-|  Console                                          | Web          | 40      |
+|  Fuzzy                                            | Web          | 20     |
+| [FreeLancer][6]                                   | Web          | 30     |
+| [ezpz][7]                                         | Web          | 20     |
+|  Console                                          | Web          | 40     |
+|  baby ninja jinja                                 | Web          | 30     |
+|  breaking grad                                    | Web          | 30     |
 
 [1]: https://www.hackthebox.eu/
 [2]: ./Crypto
