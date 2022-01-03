@@ -52,11 +52,21 @@ This flag taught me about php 5.5.9 and the idea of modifying the URL path to by
  6. Once the comment is approved and I go back to the home page I see... no change. hmm. If I go to the http://localhost/index I still see no change. I am missing something.
  7. If we look at the image I just posted we can see that the location of the file is not on the homepage so it will not show up when I go back to the homepage OR when I go to that page. I need to resubmit the comment on the homepage and then see if I can get the index.php contents. ![Alt Text](https://dev-to-uploads.s3.amazonaws.com/i/99nlfifv5q2gqx54ueqr.png)
  8. Once I posted the comment on the homepage and approved it and go back I see I am still missing something. If I go to the index.php page I get an error of " Fatal error: Allowed memory size of 134217728 bytes exhausted (tried to allocate 16384 bytes) in /app/index.php on line 20"...
- 9. If I go back to the ?page=localhost/index I can see that I am displaying all the comments that I submitted. And if I look at the page source I can see all the php comments I submitted and the flag.![Alt Text](https://dev-to-uploads.s3.amazonaws.com/i/heb8ehe024fh8hstxd3f.png)
+ 9. If I go back to the `?page=http://localhost/index` I can see that I am displaying all the comments that I submitted. And if I look at the page source I can see all the php comments I submitted and the flag.![Alt Text](https://dev-to-uploads.s3.amazonaws.com/i/heb8ehe024fh8hstxd3f.png)
 
 #### Learned
-This flag taught me more about php and how it is not only displaying in a webpage but also how it is communicating with the server. I found it an interesting way to view the php in a page also. This is because php is usually handled on the server side before it is sent to the user but by putting it in the comments and the vulnerabilities that this version of php has I am able to view the php files.
+This flag taught me more about php, the php file inclusion bug, and how php is used to not only display a webpage but also that it's communicating with the server. 
 
+I also found it an interesting way to view the php in a page. PHP is handled server side (before it's sent to the user) but by putting the payload in the comments you are able to then utilize the `index.php` page's `include()` function to make a request to the local `index.php` file because of the vulnerabilities that this version of php.
+
+> "The PHP language has a directive which, if enabled, allows filesystem functions to use a URL to retrieve data from remote locations. The directive is allow_url_fopen in PHP versions <= 4.3.4 and allow_url_include since PHP 5.2.0. In PHP 5.x this directive is disabled by default, in prior versions it was enabled by default." (4)
+
+This works because of the file path that the server is trying to access (`?page=http://localhost/index`). Similar to accessing a local file on your local browser or in the file directory, the server wants to include the page it is told to but when it makes a request to get the page `http://localhost/index` the server processes this as its own index page (because of the bug), adds the `.php` to the end, and renders the requested page’s source in the main page's source code though the PHP `echo readfile()` command.
+
+
+#### Remediation:
+Though the most effective solution would be to not allow user-submitted input into a filesystem/framework this is not usually practical. (4)
+Keeping systems up-to-date, validating all user input, and even better would be to maintain a whitelist of acceptable files to access through the use of an identifier, such as index/key number and thus rejecting any request containing an invalid identifier. (5)
 
 
 <hr>
@@ -68,7 +78,7 @@ Happy Hacking
 1. https://www.cvedetails.com/version/164957/PHP-PHP-5.5.9.html
 2. https://www.cvedetails.com/cve/CVE-2006-2700/
 3. https://www.youtube.com/watch?v=ehp9TdmXWr0
-
-
+4. https://en.wikipedia.org/wiki/File_inclusion_vulnerability
+5. https://owasp.org/www-project-web-security-testing-guide/assets/archive/OWASP_Testing_Guide_v4.pdf
 
 ###### Please Note: that I am still learning and if something that I have stated is incorrect please let me know. I would love to learn more about what I may not understand fully.
